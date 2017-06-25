@@ -8,6 +8,8 @@ The master branch of this repository contains samples configured for the latest 
 ![Pushpin and Marker on SlimGIS iOS Map Kit](https://github.com/SlimGIS/FeatureSamples-iOS/raw/master/Previews/ios-samples-preview-2.jpg)
 ![Air plane flying animation on SlimGIS iOS Map Kit](https://github.com/SlimGIS/FeatureSamples-iOS/raw/master/Previews/ios-samples-preview-3.jpg)
 ![Stamen watercolor map on SlimGIS iOS Map Kit](https://github.com/SlimGIS/FeatureSamples-iOS/raw/master/Previews/ios-samples-preview-4.jpg)
+![Stamen terrain map on SlimGIS iOS Map Kit](https://github.com/SlimGIS/FeatureSamples-iOS/raw/master/Previews/ios-samples-preview-5.jpg)
+![Countries map in EPSG 2163 on SlimGIS iOS Map Kit](https://github.com/SlimGIS/FeatureSamples-iOS/raw/master/Previews/ios-samples-preview-6.jpg)
 
 ## Features
 
@@ -32,5 +34,6 @@ The master branch of this repository contains samples configured for the latest 
 ## Related Resources
 - Getting started
 - API references
-- License guide
-- Report a bug or request a new feature
+- [License guide](https://www.slimgis.com/developers/license-options)
+- [Report a bug or request a new feature](https://forums.slimgis.com)
+- [Contact us](mailto:support@slimgis.com)
