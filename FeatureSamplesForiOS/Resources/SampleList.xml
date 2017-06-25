@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sampleslist>
+	<samples name="Getting Started">
+		<sample name="Add a Simple Map" type="UseOpenStreetMapViewController" />
+		<sample name="Add Markers" type="MarkersViewController" />
+		<sample name="Add Popups" type="PopupsViewController" />
+	</samples>
+	<samples name="Geometries">
+		<sample name="Get Segmentation" type="GetLineOnALineViewController" />
+		<sample name="Get Great Circle" type="GetGreatCircleViewController" />
+		<sample name="Get Point on a line" type="GetPointOnALineViewController" />
+		<sample name="Get Area of Polygon" type="GetPolygonAreaViewController" />
+		<sample name="Get Distance of Line" type="GetLineDistanceViewController" />
+	</samples>
+	<samples name="Layers">
+		<sample name="Add Dynamic Features" type="UseMemoryLayerViewController" />
+		<sample name="Add Shapefile" type="UseShapefileViewController" />
+		<sample name="Add Grid file" type="UseGridFileViewController" />
+		<sample name="Add Google Maps" type="UseGoogleMapsViewController" />
+		<sample name="Add OpenStreet Map" type="UseOpenStreetMapViewController" />
+		<sample name="Add Bing Maps" type="UseBingMapsViewController" />
+		<sample name="Add Stamen Maps" type="UseStamenMapsViewController" />
+		<sample name="Add WMS Maps" type="UseWmsViewController" />
+		<sample name="Add an Image as Map" type="UseGeoImageViewController" />
+	</samples>
+	<samples name="Projections">
+		<sample name="Use Google Proj" type="UseGoogleProjViewController" />
+		<sample name="Use Mollweide Proj" type="UseMollweideProjViewController" />
+		<sample name="Use EPSG 2163" type="UseEpsgProjViewController" />
+	</samples>
+	<samples name="Spatial Funcs">
+		<sample name="Get Buffer" type="BufferViewController" />
+		<sample name="Get Intersection" type="SpatialQueryViewController" />
+		<sample name="Get Convex Hull" type="GetConvexHullViewController" />
+		<sample name="Get Union" type="UnionViewController" />
+		<sample name="Get Difference" type="DifferenceViewController" />
+	</samples>
+</sampleslist>

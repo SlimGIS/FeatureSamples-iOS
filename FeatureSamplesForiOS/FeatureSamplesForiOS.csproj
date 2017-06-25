@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FeatureSamplesForiOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>FeatureSamples</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <IOSDebugOverWiFi>False</IOSDebugOverWiFi>
+    <IOSDebuggerPort>10000</IOSDebuggerPort>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <BuildIpa>True</BuildIpa>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="GettingStarted.Xamarin" />
+    <None Include="Info.plist" />
+    <Compile Include="Models\Samples.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Samples\Geometries\GetLineOnALineViewController.cs" />
+    <Compile Include="Samples\Geometries\GetLineOnALineViewController.designer.cs">
+      <DependentUpon>GetLineOnALineViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Geometries\GetGreatCircleViewController.cs" />
+    <Compile Include="Samples\Geometries\GetGreatCircleViewController.designer.cs">
+      <DependentUpon>GetGreatCircleViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Geometries\GetPointOnALineViewController.cs" />
+    <Compile Include="Samples\Geometries\GetPointOnALineViewController.designer.cs">
+      <DependentUpon>GetPointOnALineViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Geometries\GetPolygonAreaViewController.cs" />
+    <Compile Include="Samples\Geometries\GetPolygonAreaViewController.designer.cs">
+      <DependentUpon>GetPolygonAreaViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Geometries\GetLineDistanceViewController.cs" />
+    <Compile Include="Samples\Geometries\GetLineDistanceViewController.designer.cs">
+      <DependentUpon>GetLineDistanceViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Layers\UseMemoryLayerViewController.cs" />
+    <Compile Include="Samples\Layers\UseMemoryLayerViewController.designer.cs">
+      <DependentUpon>UseMemoryLayerViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Layers\UseShapefileViewController.cs" />
+    <Compile Include="Samples\Layers\UseShapefileViewController.designer.cs">
+      <DependentUpon>UseShapefileViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Layers\UseGridFileViewController.cs" />
+    <Compile Include="Samples\Layers\UseGridFileViewController.designer.cs">
+      <DependentUpon>UseGridFileViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Layers\UseGoogleMapsViewController.cs" />
+    <Compile Include="Samples\Layers\UseGoogleMapsViewController.designer.cs">
+      <DependentUpon>UseGoogleMapsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Layers\UseOpenStreetMapViewController.cs" />
+    <Compile Include="Samples\Layers\UseOpenStreetMapViewController.designer.cs">
+      <DependentUpon>UseOpenStreetMapViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Layers\UseBingMapsViewController.cs" />
+    <Compile Include="Samples\Layers\UseBingMapsViewController.designer.cs">
+      <DependentUpon>UseBingMapsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Layers\UseStamenMapsViewController.cs" />
+    <Compile Include="Samples\Layers\UseStamenMapsViewController.designer.cs">
+      <DependentUpon>UseStamenMapsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Layers\UseWmsViewController.cs" />
+    <Compile Include="Samples\Layers\UseWmsViewController.designer.cs">
+      <DependentUpon>UseWmsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Layers\UseGeoImageViewController.cs" />
+    <Compile Include="Samples\Layers\UseGeoImageViewController.designer.cs">
+      <DependentUpon>UseGeoImageViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Projections\UseGoogleProjViewController.cs" />
+    <Compile Include="Samples\Projections\UseGoogleProjViewController.designer.cs">
+      <DependentUpon>UseGoogleProjViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Projections\UseMollweideProjViewController.cs" />
+    <Compile Include="Samples\Projections\UseMollweideProjViewController.designer.cs">
+      <DependentUpon>UseMollweideProjViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Projections\UseEpsgProjViewController.cs" />
+    <Compile Include="Samples\Projections\UseEpsgProjViewController.designer.cs">
+      <DependentUpon>UseEpsgProjViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\SpatialFuncs\BufferViewController.cs" />
+    <Compile Include="Samples\SpatialFuncs\BufferViewController.designer.cs">
+      <DependentUpon>BufferViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\SpatialFuncs\SpatialQueryViewController.cs" />
+    <Compile Include="Samples\SpatialFuncs\SpatialQueryViewController.designer.cs">
+      <DependentUpon>SpatialQueryViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\SpatialFuncs\GetConvexHullViewController.cs" />
+    <Compile Include="Samples\SpatialFuncs\GetConvexHullViewController.designer.cs">
+      <DependentUpon>GetConvexHullViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\SpatialFuncs\UnionViewController.cs" />
+    <Compile Include="Samples\SpatialFuncs\UnionViewController.designer.cs">
+      <DependentUpon>UnionViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\SpatialFuncs\DifferenceViewController.cs" />
+    <Compile Include="Samples\SpatialFuncs\DifferenceViewController.designer.cs">
+      <DependentUpon>DifferenceViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\GettingStarted\MarkersViewController.cs" />
+    <Compile Include="Samples\GettingStarted\MarkersViewController.designer.cs">
+      <DependentUpon>MarkersViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\GettingStarted\PopupsViewController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Shared\DetailViewController.cs" />
+    <Compile Include="Shared\DetailViewController.designer.cs">
+      <DependentUpon>DetailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\SliderViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewController.cs" />
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entitlements.plist" />
+    <BundleResource Include="Resources\SampleList.xml">
+      <SubType>Designer</SubType>
+    </BundleResource>
+    <BundleResource Include="Resources\detail40x40.png" />
+    <BundleResource Include="Resources\buffer.png" />
+    <BundleResource Include="Resources\detail30x30.png" />
+    <BundleResource Include="Resources\airplane.png" />
+    <BundleResource Include="Resources\SampleData\sections-900913.dbf" />
+    <BundleResource Include="Resources\SampleData\sections-900913.rds" />
+    <BundleResource Include="Resources\SampleData\sections-900913.rdx" />
+    <BundleResource Include="Resources\SampleData\sections-900913.shp" />
+    <BundleResource Include="Resources\SampleData\sections-900913.shx" />
+    <BundleResource Include="Resources\SampleData\streets-900913.dbf" />
+    <BundleResource Include="Resources\SampleData\streets-900913.rds" />
+    <BundleResource Include="Resources\SampleData\streets-900913.rdx" />
+    <BundleResource Include="Resources\SampleData\streets-900913.shp" />
+    <BundleResource Include="Resources\SampleData\streets-900913.shx" />
+    <BundleResource Include="Resources\SampleData\countries-900913.dbf" />
+    <BundleResource Include="Resources\SampleData\countries-900913.rds" />
+    <BundleResource Include="Resources\SampleData\countries-900913.rdx" />
+    <BundleResource Include="Resources\SampleData\countries-900913.shp" />
+    <BundleResource Include="Resources\SampleData\countries-900913.shx" />
+    <BundleResource Include="Resources\SampleData\gridfile-900913.grd" />
+    <BundleResource Include="Resources\SampleData\bing-aerial-900913.png" />
+    <BundleResource Include="Resources\SampleData\countries-wgs84.dbf" />
+    <BundleResource Include="Resources\SampleData\countries-wgs84.rds" />
+    <BundleResource Include="Resources\SampleData\countries-wgs84.rdx" />
+    <BundleResource Include="Resources\SampleData\countries-wgs84.shp" />
+    <BundleResource Include="Resources\SampleData\countries-wgs84.shx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MapKit.Core\MapKit.Core.iOS\MapKit.Core.iOS\MapKit.Core.iOS.csproj">
+      <Project>{1449E445-691F-4298-B0C3-7C046324CE84}</Project>
+      <Name>MapKit.Core.iOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MapKit.iOS\MapKit.iOS.csproj">
+      <Project>{94724D32-1004-4A33-9440-D097DBCB5AE8}</Project>
+      <Name>MapKit.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Samples\Geometries\" />
+    <Folder Include="Resources\SampleData\" />
+    <Folder Include="Samples\Layers\" />
+    <Folder Include="Samples\Projections\" />
+    <Folder Include="Samples\SpatialFuncs\" />
+    <Folder Include="Samples\GettingStarted\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureSamplesForiOS", "FeatureSamplesForiOS/FeatureSamplesForiOS.csproj", "{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Release|iPhone.Build.0 = Release|iPhone
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{E03D90F3-FC0E-4962-AC33-CF5FB69C9A3F}.AppStore|iPhone.Build.0 = AppStore|iPhone
+	EndGlobalSection
+EndGlobal
