@@ -4,6 +4,11 @@ This repository contains C# sample code demonstrating the capabilities of SlimGI
 
 The master branch of this repository contains samples configured for the latest available version of SlimGIS Runtime SDK for iOS Map Kit.
 
+![OpenStreetMap on SlimGIS iOS Map Kit](https://github.com/SlimGIS/FeatureSamples-iOS/raw/master/Previews/ios-samples-preview-1.jpg)
+![Pushpin and Marker on SlimGIS iOS Map Kit](https://github.com/SlimGIS/FeatureSamples-iOS/raw/master/Previews/ios-samples-preview-2.jpg)
+![Air plane flying animation on SlimGIS iOS Map Kit](https://github.com/SlimGIS/FeatureSamples-iOS/raw/master/Previews/ios-samples-preview-3.jpg)
+![Stamen watercolor map on SlimGIS iOS Map Kit](https://github.com/SlimGIS/FeatureSamples-iOS/raw/master/Previews/ios-samples-preview-4.jpg)
+
 ## Features
 
 - Maps - Create base maps includes:
